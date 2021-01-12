@@ -1,0 +1,28 @@
+{
+  "name": "quora",
+  "version": "This is the backend of quora ",
+  "description": "Website for college students regarding colleges/universities",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node server.js",
+    "dev": "nodemon --exec babel-node server.js"
+  },
+  "author": "Neelesh Singh",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "bcrypt": "^5.0.0",
+    "cloudinary": "^1.23.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "mongoose": "^5.11.9",
+    "pusher": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
